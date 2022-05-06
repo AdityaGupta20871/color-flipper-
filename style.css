@@ -1,0 +1,74 @@
+#btn{
+    border: 2px solid firebrick;
+    border-radius: 5px;
+    background-color: rgb(185, 204, 151);
+    color: rebeccapurple;
+    font-weight: 900;
+    font-size:30px;
+    padding: 30px 50px;
+    box-shadow: 5px 5px  ;
+    
+}
+#btn:hover{
+    background-color: darkgray;
+    box-shadow: 7px 7px;
+}
+#btn:active{
+  background-color: yellow;
+  box-shadow: 10px 10px;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h1,h2{
+  font-weight: 900;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+  text-decoration: underline;
+  text-shadow: 2px 2px grey;
+  font-size: 30px;
+  color: rgb(26, 225, 225);
+  flex: 6;
+  padding-left: 100px;
+  padding-right: 50px;
+  border: 2px solid violet;
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+
+}
+.nav-center{
+  display: flex;
+  flex-direction: row;
+  }
+
+  ul{
+    flex: 6;
+  }
+ 
+  li{
+ display: flex;
+ flex-direction: row;
+ background-color: black;
+ justify-content: center;
+ align-items: center;
+ padding-bottom: 10px;
+ padding-top: 10px;
+border-radius: 50px;
+  }
+
+a{
+  color: teal;
+  font-size: 40px;
+  text-shadow: 2px 2px grey;
+  text-decoration: none;
+}
+ 
+
+
+
